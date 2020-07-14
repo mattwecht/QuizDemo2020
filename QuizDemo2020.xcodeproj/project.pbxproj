@@ -14,6 +14,8 @@
 		E0813D2724B8E0A000640486 /* QuizDemo2020.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0813D2524B8E0A000640486 /* QuizDemo2020.xcdatamodeld */; };
 		E0813D2924B8E0A800640486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0813D2824B8E0A800640486 /* Assets.xcassets */; };
 		E0813D2C24B8E0A800640486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0813D2A24B8E0A800640486 /* LaunchScreen.storyboard */; };
+		E0813D3424B8E18800640486 /* questionTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0813D3324B8E18800640486 /* questionTwoViewController.swift */; };
+		E0813D3624B8E19800640486 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0813D3524B8E19700640486 /* resultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E0813D2824B8E0A800640486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0813D2B24B8E0A800640486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0813D2D24B8E0A800640486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0813D3324B8E18800640486 /* questionTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionTwoViewController.swift; sourceTree = "<group>"; };
+		E0813D3524B8E19700640486 /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E0813D1C24B8E0A000640486 /* AppDelegate.swift */,
 				E0813D1E24B8E0A000640486 /* SceneDelegate.swift */,
 				E0813D2024B8E0A000640486 /* ViewController.swift */,
+				E0813D3524B8E19700640486 /* resultsViewController.swift */,
+				E0813D3324B8E18800640486 /* questionTwoViewController.swift */,
 				E0813D2224B8E0A000640486 /* Main.storyboard */,
 				E0813D2824B8E0A800640486 /* Assets.xcassets */,
 				E0813D2A24B8E0A800640486 /* LaunchScreen.storyboard */,
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0813D2124B8E0A000640486 /* ViewController.swift in Sources */,
+				E0813D3424B8E18800640486 /* questionTwoViewController.swift in Sources */,
 				E0813D1D24B8E0A000640486 /* AppDelegate.swift in Sources */,
 				E0813D1F24B8E0A000640486 /* SceneDelegate.swift in Sources */,
 				E0813D2724B8E0A000640486 /* QuizDemo2020.xcdatamodeld in Sources */,
+				E0813D3624B8E19800640486 /* resultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
